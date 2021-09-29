@@ -1,0 +1,8 @@
+{
+    "ZEST_CORE_MTXDOT": {
+        "inherits": [
+            "MCU_STM32L151xC"
+        ],
+        "device_name": "STM32L151CCTx"
+    }
+}
