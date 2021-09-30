@@ -110,6 +110,24 @@ typedef enum {
     DIO4        = PA_2,         // if R22 is mounted
     DIO5        = PA_3,         // if R23 is mounted
 
+    // LoRa
+    LORA_RESET      = PA_1,
+    LORA_MOSI       = PB_5,
+    LORA_MISO       = PB_4,
+    LORA_SCK        = PB_3,
+    LORA_NSS        = PA_15,
+    LORA_DIO0       = PA_6,
+    LORA_DIO1       = PA_7,
+    LORA_DIO2       = PA_8,
+    LORA_DIO3       = PB_1,
+    LORA_DIO4       = PC_13,
+
+    // Secure Element
+    SE_RESET        = PB_7,
+    SE_CTRL         = PB_6,
+    SE_IO           = PB_10,
+    SE_CLK          = PB_11,
+
     // Not connected
     NC = (int)0xFFFFFFFF
 } PinName;
