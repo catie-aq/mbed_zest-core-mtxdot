@@ -3,6 +3,12 @@
         "inherits": [
             "MCU_STM32L151xC"
         ],
+        "config": {
+            "hse_value": {
+                "value": "24000000",
+                "macro_name": "HSE_VALUE"
+            }
+        },
         "device_name": "STM32L151CCTx"
     }
 }
