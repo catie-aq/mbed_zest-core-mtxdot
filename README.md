@@ -1,6 +1,5 @@
 # Zest Core MTXDOT
-[Zest Core MTXDOT](https://gitlab.com/catie_6tron/zest-core-mtxdot-hardware)
-custom target for Mbed OS.
+[Zest Core MTXDOT](https://member.6tron.io/) custom target for Mbed OS.
 
 ## Usage
 In your project root directory:
@@ -8,7 +7,7 @@ In your project root directory:
 1.  Add the custom target to your project:
 
     ```shell
-    mbed add https://gitlab.com/catie_6tron/zest-core-mtxdot.git
+    mbed add https://github.com/catie-aq/mbed_zest-core-mtxdot.git
     ```
 
 2. Enable the custom target by adding or overwriting the `custom_targets.json` at the
